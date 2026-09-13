@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.wmv filter=lfs diff=lfs merge=lfs -text
+*.PSS filter=lfs diff=lfs merge=lfs -text
+*.pss filter=lfs diff=lfs merge=lfs -text
